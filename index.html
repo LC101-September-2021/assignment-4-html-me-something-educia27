@@ -3,16 +3,17 @@
 <html>
   <head>
     <title>Eddys first HTML</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body background = "images/background.jpg">
-   <header>
-      <h1> Eddys Pillars of Life</h1>
-      <h4>This will be a high level overview of Eddys interests</h4>
+   <header id = "mainHeading">
+      <h1> Eddy's Pillars of Life</h1>
+      <strong>This will be a high level overview of Eddy's interests.</strong>
    </header>
    <main>
    <article>
       <section>
-         <b> Pillar 1: Meditation</b>
+         <b class = "pillars"> Pillar 1: Meditation</b>
          <p>One of the main habits I picked up when moving to St. Louis is practicing Vipassana meditation. 
                This is a practice where the breath serves as an anchor for stability of attention and concentration. 
                The breath may be observed at the tip of the nose or even at the abdomen where an "in and out" sensation
@@ -29,7 +30,7 @@
          </figcaption>
       </section>
       <section>
-         <b> Pillar 2: Powerlifting</b>
+         <b class = "pillars"> Pillar 2: Powerlifting</b>
          <p>I started competing in Powerlifing not too long ago and this hobby is something that serves as a mental
             break from other life activities. Powerlifting is composed of 3 lifts which are the squat, bench, and deadlift. Their
             are 3 attempts for each lift with the goal being obtaining the highest total possible. Powerlifting tends to use the metric system 
@@ -44,7 +45,7 @@
          </figcaption>
       </section>
       <section>
-         <b>Pillar 3: Working in Geospatial</b>
+         <b class= "pillars">Pillar 3: Working in Geospatial</b>
          <p>I currently work as a Geospatial Analyst for a defense contracting firm and this is the initial start of my professional
             career since graduating from the University of Washington, Seattle in 2018. The type of work that I do involves feature extraction, attribute data,
             working with automated tools, validation tools, testing of proprietary software, and tons of documentation. The GIS work that I
@@ -61,8 +62,8 @@
          </figcaption>
       </section>
       <section>
-         <b>Pillar 4: Continuous Learning</b>
-         <p>In some respects, the learning journey has only just begun since graduating college. Whether that is picking up a new self help book to read, 
+         <b class="pillars">Pillar 4: Continuous Learning</b>
+         <p id="testP" class="funParagraph">In some respects, the learning journey has only just begun since graduating college. Whether that is picking up a new self help book to read, 
             learning powerlifting methodologies on how to make progress, or learning software development, the learning journey is here to stay! The one 
             common theme in my life is to keep being curious about how things work and ultimately solving problems well. 
          </p>
@@ -76,8 +77,8 @@
    </article>
    </main>
    <footer>
-      <p> &copy;Eddy Tamayo Garcia</p>
-      <p><a href="mailto:edd1114@gmail.com">Notify</a></p>
+      <h4 id="end"> &copy;Eddy Tamayo Garcia</h4>
+      <h4 id="end"><a href="mailto:edd1114@gmail.com">Notify</a></h4>
    </footer>
    </body>
 </html>
