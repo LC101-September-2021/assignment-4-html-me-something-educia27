@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../bootstrap-4.3.1-dist/css"
+		},
+		{
+			"path": "../bootstrap-4.3.1-dist/js"
+		}
+	],
+	"settings": {}
+}
